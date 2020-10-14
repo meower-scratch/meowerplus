@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script src="https://kit.fontawesome.com/d389583fd6.js" crossorigin="anonymous"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<p id="css"><link rel='stylesheet' type='text/css' href='styles/lightisbroken.css' /></p>
+    <link rel='stylesheet' type="text/css" href="styles/global.css" />
 	<title>Meower+ | A Social Media Platform that is safe for all ages!</title>
-  <!-- script src="scripts/styleswitch.js" makes the page unload-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.1/socket.io.js"></script>
+  <!--script src="scripts/styleswitch.js" makes the page unload-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.1/socket.io.js"></script> <!-- Whats socket.io -->
 <script>
     function lightTheme(){
-      document.getElementById("css").innerHTML = "<link rel='stylesheet' href='styles/lightisbroken.css'>";
+      document.getElementById("css").innerHTML = "<link rel='stylesheet' href='styles/light.css'>";
     }
     function darkTheme(){
       document.getElementById("css").innerHTML = "<link rel='stylesheet' href='styles/dark.css'>";
@@ -17,19 +19,27 @@
   </script>
 	</head>
 	<body>
-    <div id="navbar">
-      meower+ |
-      <a href = "//meower.tk/">meower</a>
-    </div>
+		<div id="navbar">
+      <a href = "//meowerplus.tk/">meower plus</a>
+				<a href = "//meower.tk/">meower</a>
+		</div>
+		<br>
+		<br>
+		<br>
 		<center class="main-content">
-		<h1>Meower+</h1>
+		<h1 id="logo">Meower+</h1>
     <center> The incredible Social Media, right in your hands </p>
-    <img src="/images/arrowlight.png">
+    <i class="fas fa-arrow-down" style="color:whitesmoke;font-size:100px;"></i>
 		</p>
 
     <center class="themes">
     <button onclick="lightTheme()"> Light Mode! </button>
     <button onclick="darkTheme()"> Dark Mode! </button>
     </center>
+
+    <center class="testipsum"><br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non faucibus nisi. Proin luctus ut tortor quis faucibus. Cras eget neque in mi ullamcorper sagittis et in ex. Donec bibendum consequat iaculis. Quisque cursus, dolor eget sipit varius. Maecenas tellus justo, semper a arcu non, sodales bibendum nibh. Vestibulum a est quis lorem tempor mollis.
+<br>
+<br>
+    Sed id felis eu nisl eleifend consequat. Sed mattis nisi viverra quam ultrices pellentesque. Aliquam volutpat porta congue. Duis vel rhoncus metus. Maecenas a nisi augue. Nunc ultricies molestie libero, nonm in sed elit. Nam quam risus, placerat ac turpis eu, suscipit porttitor nisl. Mauris sed porta odio, vitae pharetra tortor. Vivamus eget hendrerit arcu, quis lacinia velit.</center>
 	</body>
 </html>

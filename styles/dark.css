@@ -128,30 +128,23 @@
 @font-face{
   font-family:varta;font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/varta/v1/Qw3AZQpJHj_6LzHUngWbrFkDH1x9tD40jbs_.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD
 }
-.topnav{
-  background-color:#000;overflow:hidden
-}
-.topnav a{
-  float:left;color:#333;text-align:center;padding:14px 16px;text-decoration:none;font-size:17px
-}
-.topnav a:hover{
-  background-color:#000;color:#000
-}
-.topnav a.active{
-  background-color:#4caf50;color:#000
+body{
+	font-family:Varta,sans-serif;
+  color:whitesmoke; 
+	background-color:#000;
 }
 button{
   font-family:Varta,sans-serif
 }
 h1{
+	color: #fff;
   font-size:20px
 }
 p{
+	color:#fff;
   font-size:15px
 }
-body{
-  background-color:#532400;color:#242424;font-family:Varta
-}
+
 #logo{
   transform: translateY(0px); 
   animation: slide 1s alternate ease-out;
@@ -168,13 +161,13 @@ body{
   width:100px;border:3px solid #d1d1d1
 }
 .main-content button{
-  border:3px solid #000000;border-radius:8px;background-color:transparent;color:#000
+  border:3px solid #fff;border-radius:8px;background-color:transparent;color:#fff
 }
 .main-content button[disabled]{
-  border:3px solid #000;border-radius:8px;background-color:transparent;color:#000;filter:blur(1px)
+  border:3px solid #fff;border-radius:8px;background-color:transparent;color:#fff;filter:blur(1px)
 }
 .main-content a{
-  color:#000;text-decoration:none
+  color:#fff;text-decoration:none
 }
 .main-content h1{
   text-shadow:4px 4px 7px #644e31;font-family:Varta
