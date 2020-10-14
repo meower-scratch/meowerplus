@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<p id="css"><link rel='stylesheet' type='text/css' href='styles/lightisbroken.css' /></p>
+	<title>Meower+ | A Social Media Platform that is safe for all ages!</title>
+  <!-- script src="scripts/styleswitch.js" this code makes the page orange fsr -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.1/socket.io.js"></script>
+<script>
+    function lightTheme(){
+      document.getElementById("css").innerHTML = "<link rel='stylesheet' href='/styles/lightisbroken.css'>";
+    }
+    function darkTheme(){
+      document.getElementById("css").innerHTML = "<link rel='stylesheet' href='/styles/dark.css'>";
+    }
+  </script>
+	</head>
+	<body>
+    <div id="navbar">
+      meower+ |
+      <a href = "//meower.tk/">meower</a>
+    </div>
+		<center class="main-content">
+		<h1>Meower+</h1>
+    <center> The incredible Social Media, right in your hands </p>
+    <img src="/images/arrowlight.png">
+		</p>
+
+    <center class="themes">
+    <button onclick="lightTheme()"> Light Mode! </button>
+    <button onclick="darkTheme()"> Dark Mode! </button>
+    </center>
+	</body>
+</html>Its named, and fixed
