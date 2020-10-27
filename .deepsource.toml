@@ -1,6 +1,6 @@
 version = 1
 
-test_patterns = ["*/*_test.*"]
+test_patterns = ["*.test.*"]
 
 exclude_patterns = [".*"]
 
@@ -10,4 +10,4 @@ enabled = true
 
   [analyzers.meta]
   environment = ["browser"]
-  style_guide = "standard"
+  style_guide = "google"
