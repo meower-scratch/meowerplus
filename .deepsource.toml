@@ -1,0 +1,13 @@
+version = 1
+
+test_patterns = ["*/*_test.*"]
+
+exclude_patterns = [".*"]
+
+[[analyzers]]
+name = "javascript"
+enabled = true
+
+  [analyzers.meta]
+  environment = ["browser"]
+  style_guide = "standard"
